@@ -1,0 +1,16 @@
+INFO/This is the file for the L shapped map design (The names are just palceholders for now)
+CON/Korea;
+CON/China;
+CON/Japan;
+REG/Busan;Korea;0;null;{Seoul,Incheon,Okinawa};
+REG/Incheon;Korea;0;null;{Busan,Seoul};
+REG/Seoul;Korea;0;null;{Incheon,Busan,Beijing};
+REG/Okinawa;Japan;0;null;{Busan,Osaka,Tokyo};
+REG/Osaka;Japan;0;null;{Okinawa,Kyoto,Tokyo};
+REG/Tokyo;Japan;0;null;{Osaka,Okinawa};
+REG/Kyoto;Japan;0;null;{Osaka};
+REG/Beijing;China;0;null;{Seoul,Shanghai,Shenzhen};
+REG/Shanghai;China;0;null;{Beijing,Shenzhen,Shenzhen};
+REG/Shenzhen;China;0;null;{Beijing,Shanghai,Chongqing};
+REG/Chengdu;China;0;null;{Shanghai,Chongqing};
+REG/Chongqing;China;0;null;{Chengdu,Shenzhen};
